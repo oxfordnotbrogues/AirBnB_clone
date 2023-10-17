@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """This class is responsible for storing files."""
+import sys
+sys.path.append("../../")
 import json
 from models.base_model import BaseModel
 from models.user import User
